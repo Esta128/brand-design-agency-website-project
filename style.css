@@ -1,0 +1,192 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #000000;
+  width: 100%;
+  min-height: 95vh;
+  color: white;
+  margin: 0;
+ 
+}
+
+h1 {
+  font-size: 7rem;
+  font-weight: 900;
+  line-height: 140px;
+  margin: 100px 0 20px 0;
+
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 700;
+  
+}
+
+h3{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+header{
+  padding: 20px 0;
+  background-color: #000000;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+}
+
+.logo{
+  margin-right: 18%;
+}
+
+nav{
+  margin-left: 18%;
+}
+
+
+.logo img{
+  width: 55%;
+}
+
+
+a.menu{
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  display: inline-block;
+ 
+}
+
+a.menu:hover{
+  color: #fa8900;
+}
+
+
+main{
+  padding: 40px 100px 0 100px;
+  align-self: center;
+  overflow: hidden;
+}
+
+.hero{
+ text-align: center;
+ align-content: center;
+ min-height: 500px;
+ background-image: url(assets/images/Lovepik_com-610605710-Beautiful\ color\ spiral\ line\ pattern\ element2.png);
+ background-size: 45%;
+ background-repeat: no-repeat;
+ background-position: center;
+ padding-bottom: 50px;
+
+
+}
+
+.hero p{
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 50px ;
+}
+
+.button{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 50px;
+  background-color: #fa8900;
+  border: solid #fa8900 2px;
+  padding: 14px 50px;
+}
+
+.button:hover{
+  background-color: #ffffff;
+  border: solid #ffffff 2px;
+  color: #fa8900;
+}
+
+.portfolio{
+  align-content: center;
+  min-height: 500px;
+  padding: 40px 0;
+  
+}
+
+.portfolio div{
+  text-align: center;
+  padding: 10px 0;
+}
+
+.intro h2{
+  margin-bottom: -12px;
+}
+
+div .main-card{
+  display: flex;
+  align-content: start;
+  padding: 50px 0;
+  
+}
+
+#img{
+  width: 600px;
+  height: 450px;
+  object-fit: cover;
+  object-position: center right;
+  border-radius: 60px;
+
+}
+
+div .side-card{
+  padding: 0 50px;
+
+}
+
+.side-card h3{
+  text-align:start;
+}
+
+.side-card p{
+  text-align:start;
+}
+
+
+
+.contact-us{
+  min-height: 250px;
+  text-align: center;
+  padding: 20px 0 120px 0;
+}
+
+.last p{
+  padding: 25px 0 50px 0 ;
+  width: 47%;
+  margin: 0 auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(124, 124, 124);
+  background-color: #111111;
+  height: 40px;
+  margin: 0;
+  padding: 20px 0;
+  overflow: hidden;
+  border-top: solid rgb(212, 212, 212) 1px;
+}
+
+.copyright{
+  margin-right: 60%;
+}
+
+.social{
+  margin-left: 60%;
+}
+
+a img{
+  width: 30px;
+}
