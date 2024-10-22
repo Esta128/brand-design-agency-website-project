@@ -34,18 +34,10 @@ header{
   height: 40px;
   display: flex;
   justify-content: space-around;
+  gap: 40%;
   position: fixed;
   top: 0;
 }
-
-.logo{
-  margin-right: 18%;
-}
-
-nav{
-  margin-left: 18%;
-}
-
 
 .logo img{
   width: 55%;
@@ -170,6 +162,7 @@ div .side-card{
 footer {
   display: flex;
   justify-content: space-around;
+  gap: 70%;
   color: rgb(124, 124, 124);
   background-color: #111111;
   height: 40px;
@@ -177,14 +170,6 @@ footer {
   padding: 20px 0;
   overflow: hidden;
   border-top: solid rgb(212, 212, 212) 1px;
-}
-
-.copyright{
-  margin-right: 60%;
-}
-
-.social{
-  margin-left: 60%;
 }
 
 a img{
